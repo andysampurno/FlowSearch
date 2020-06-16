@@ -50,7 +50,6 @@ public class camera extends AppCompatActivity {
         } else {
             openCamera();
         }
-
     }
     public static void saveToPreferences(Context context, String key, Boolean allowed) {
         SharedPreferences myPrefs = context.getSharedPreferences(CAMERA_PREF,
